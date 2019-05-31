@@ -119,6 +119,8 @@ $(document).ready(function(){
     $.each($('#modal .slide'), function(index, value) {
       $(this).css({
         background: "url('img/" + id + '-' + index + ".jpg') center center/cover",
+		
+		//iframe('https://www.beautiful.ai/player/-LgAObovcPeCbPPda5Wd/BE-605')
         backgroundSize: 'cover'
       });
               
