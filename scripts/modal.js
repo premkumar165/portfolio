@@ -3,10 +3,10 @@ $(document).ready(function(){
   // MODAL
   var modalText = {
     roambi: {
-      title: 'Roambi.com',
-      tag: 'BUSINESS ANALYTICS.',
-      detail: 'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.roambi.com'
+      title: 'http://urc.marssociety.org/home/team-info',
+      tag: 'MARS ROVER CHALLENGE.',
+      detail: 'Design and build the next generation of Mars rovers that will one day work alongside human explorers in the field.',
+      link: 'https://uwaterloo.ca/sedra-student-design-centre/events/2018-university-rover-challenge'
     },
     walker: {
       title: 'WalkerTracker',
@@ -118,7 +118,7 @@ $(document).ready(function(){
     });
     $.each($('#modal .slide'), function(index, value) {
       $(this).css({
-        background: "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
+        background: "url('img/" + id + '-' + index + ".jpg') center center/cover",
         backgroundSize: 'cover'
       });
               
