@@ -5,13 +5,14 @@ $(document).ready(function(){
     roambi: {
       title: 'http://urc.marssociety.org/home/team-info',
       tag: 'MARS ROVER CHALLENGE.',
-      detail: 'Design and build the next generation of Mars rovers that will one day work alongside human explorers in the field.',
+      detail: 'Design and build the next generation of Mars rovers that will one day work alongside human explorers in the field. Swipe / Drag on the images to view more',
       link: 'https://uwaterloo.ca/sedra-student-design-centre/events/2018-university-rover-challenge'
     },
     walker: {
-      title: 'WalkerTracker',
+      title: 'Design of Hydrogen storage tank for Toyota prius using lithium alanate',
       tag: 'PERFORMANCE METRICS.',
-      detail: 'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.',
+      detail: 'Energy is defined as the only important technological challenge faced by the humankind today. With energy, we are in the centre of doing big experiments that no one has ever done before. If we do not get the experiments right, as said in the language of physics, the world will not be the same ever.',
+	  link: 'https://drive.google.com/open?id=19cDuTxk7B2w5rFffK7o_dGS1zo22lvAS'
     },
     powur: {
       title: 'Powur.com',
@@ -118,7 +119,7 @@ $(document).ready(function(){
     });
     $.each($('#modal .slide'), function(index, value) {
       $(this).css({
-        background: "url('img/" + id + '-' + index + ".jpg') center center/cover",
+        background: "url('img/" + id + '-' + index + ".webp') center center/cover",
 		
 		//iframe('https://www.beautiful.ai/player/-LgAObovcPeCbPPda5Wd/BE-605')
         backgroundSize: 'cover'
