@@ -21,11 +21,10 @@ $(document).ready(function(){
       link: 'http://www.powur.com/with/42'
     },
     mystand: {
-      title: 'Fabrication and Experimental Heat Transfer Enhancement Techniques',
-      tag: 'Heat Transfer Enhancement',
-      detail: 'Various heat enhancement techniques are identified and studied for double pipe heat exchangers. Experimental evaluation is done by fabricating basic double pipe heat exchanger with modifications. The material used for the construction of heat exchanger is copper, owing to its high thermal conductivity.',
-      link: 'https://drive.google.com/open?id=0B__7p35MXrHdd3ZlcFotY29Fbzg'
-	},
+      title: 'MyStand',
+      tag: 'CROWD-FUNDED CHARITY.',
+      detail: 'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.',
+    },
     never: {
       title: 'NeverSurrender',
       tag: 'ALS AWARENESS.',
