@@ -10,7 +10,7 @@ $(document).ready(function(){
     },
     walker: {
       title: 'Design of Hydrogen storage tank for Toyota prius using lithium alanate',
-      tag: 'PERFORMANCE METRICS.',
+      tag: 'SUSTAINABLE ENERGY.',
       detail: 'Energy is defined as the only important technological challenge faced by the humankind today. With energy, we are in the centre of doing big experiments that no one has ever done before. If we do not get the experiments right, as said in the language of physics, the world will not be the same ever.',
 	  link: 'https://drive.google.com/open?id=19cDuTxk7B2w5rFffK7o_dGS1zo22lvAS'
     },
@@ -27,9 +27,9 @@ $(document).ready(function(){
       link: 'https://drive.google.com/open?id=0B__7p35MXrHdd3ZlcFotY29Fbzg'
 	},
     never: {
-      title: 'NeverSurrender',
-      tag: 'ALS AWARENESS.',
-      detail: 'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.',
+      title: 'GMSH',
+      tag: 'Mesh Generation.',
+      detail: 'Gmsh is a finite-element mesh generator and supports parametric input and has advanced visualization mechanisms.Gmsh supports full constructive solid geometry features, based on Open Cascade Technology',
     },
     themall: {
       title: 'The Mall',
