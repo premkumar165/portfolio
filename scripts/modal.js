@@ -22,20 +22,21 @@ $(document).ready(function(){
     },
     mystand: {
       title: 'Fabrication and Experimental Heat Transfer Enhancement Techniques',
-      tag: 'Heat Transfer Enhancement',
+      tag: 'HEAT TRANSFER ENHANCEMENT',
       detail: 'Various heat enhancement techniques are identified and studied for double pipe heat exchangers. Experimental evaluation is done by fabricating basic double pipe heat exchanger with modifications. The material used for the construction of heat exchanger is copper, owing to its high thermal conductivity.',
       link: 'https://drive.google.com/open?id=0B__7p35MXrHdd3ZlcFotY29Fbzg'
 	},
     never: {
       title: 'GMSH',
-      tag: 'Mesh Generation.',
+      tag: 'MESH GENERATION.',
       detail: 'Gmsh is a finite-element mesh generator and supports parametric input and has advanced visualization mechanisms.Gmsh supports full constructive solid geometry features, based on Open Cascade Technology',
     },
     themall: {
-      title: 'The Mall',
-      tag: 'PEER GUIDED SHOPPING.',
-      detail: 'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.',
-    }
+      title: 'Google-Fusion-Tables',
+      tag: 'INFLUENZA VACCINE HESITANCY DISTRIBUTION.',
+      detail: 'Primarily, a google fusion table data of all the postal codes in the province of ontario was obtained from the canadian postal department, and the data was cleaned to represent only the first 3 digits of the code (xxx), and were compared from the data obtained by a survey, and the respondents postal code was sorted according to the respective city. After that, the data is utilized in a google map API to plot the distribution.',
+      link: 'https://premkumar165.github.io/Google-Fusion-Tables/'
+	}
   };
 
   $('#gallery .button').on('click', function(){

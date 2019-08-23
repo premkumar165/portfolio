@@ -1,20 +1,19 @@
 // CONTACT FORM
-  $('#contact-form').submit(function(e) {
-    e.preventDefault();
+function submit()
+{
+var $form = $('form#contact-form'),
+    url = 'https://script.google.com/macros/s/AKfycbyUwOEc_t11kcVMx2V1Jlnh09kGEn62vUYqMnFr00T1nTZjZPQ-/exec'
 
-      $.ajax({
-          url: "https://formspree.io/pkvyda@uwaterloo.ca",
-          method: "POST",
-          data: { message: $('form').serialize() },
-          dataType: "json"
-      }).done(function(response) {
-          $('#success').addClass('expand');
-          $('#contact-form').find("input[type=text], input[type=email], textarea").val("");
-      });
-  });
-
-  $('#close').click(function() {
-    $('#success').removeClass('expand');
-  })
-
-});
+$('#submit').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+	alert(Your message was sent successfully. Thanks!)
+  );
+})
+};

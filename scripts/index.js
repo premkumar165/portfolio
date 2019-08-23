@@ -153,8 +153,8 @@ $(function() {
     e.preventDefault();
 
       $.ajax({
-          url: "https://formspree.io/pkvyda@uwaterloo.ca",
-          method: "POST",
+          url: "https://script.google.com/macros/s/AKfycbyUwOEc_t11kcVMx2V1Jlnh09kGEn62vUYqMnFr00T1nTZjZPQ-/exec",
+          method: "GET",
           data: { message: $('form').serialize() },
           dataType: "json"
       }).done(function(response) {
