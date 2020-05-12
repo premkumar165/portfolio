@@ -12,7 +12,7 @@ $(document).ready(function(){
       title: 'Design of Hydrogen storage tank for Toyota prius using lithium alanate',
       tag: 'SUSTAINABLE ENERGY.',
       detail: 'Energy is defined as the only important technological challenge faced by the humankind today. With energy, we are in the centre of doing big experiments that no one has ever done before. If we do not get the experiments right, as said in the language of physics, the world will not be the same ever.',
-	  link: 'https://drive.google.com/open?id=19cDuTxk7B2w5rFffK7o_dGS1zo22lvAS'
+      link: 'https://drive.google.com/open?id=19cDuTxk7B2w5rFffK7o_dGS1zo22lvAS'
     },
     powur: {
       title: 'Design Portfolio',
@@ -24,7 +24,7 @@ $(document).ready(function(){
       title: 'Fabrication and Experimental Heat Transfer Enhancement Techniques',
       tag: 'HEAT TRANSFER ENHANCEMENT',
       detail: 'Various heat enhancement techniques are identified and studied for double pipe heat exchangers. Experimental evaluation is done by fabricating basic double pipe heat exchanger with modifications. The material used for the construction of heat exchanger is copper, owing to its high thermal conductivity.',
-      link: 'https://drive.google.com/open?id=0B__7p35MXrHdd3ZlcFotY29Fbzg'
+      link: 'https://www.ijser.org/researchpaper/Fabrication-Experimental-Evaluation-of-Heat-Transfer-Enhancement-Techniques-in-Heat-Exchangers.pdf'
 	},
     never: {
       title: 'GMSH',
